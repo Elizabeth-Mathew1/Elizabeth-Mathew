@@ -1,0 +1,72 @@
+.header{
+    background-image: url("bg3.jpg");
+    width: 100% !important;
+    background-repeat: no-repeat!important;
+    left: 0;
+    margin:0;
+    min-height: 100%;
+    min-width:  674px;
+    padding:0;
+    position:fixed;
+    top:0;
+    z-index:-1;
+    height:auto;
+    background-size:cover;
+    animation: grow 20s infinite;
+}
+@keyframes grow{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+.pic{
+    animation:  bounce 20s infinite;
+    padding-top:290px;
+    padding-left:630px;
+    padding-right: 90px;
+}
+#liz{
+    width: 180px;
+    height:200px;
+    border-radius: 50%;
+
+}
+@keyframes bounce{
+    0%{transform:translate3d(0,0,0);}
+    50%{transform:translate3d(0,10px,0);}
+    100%{transform:translate3d(0,0,0);}
+}
+
+@media(max-width:768px)
+{
+    .header{
+        height:auto;
+        background-size:cover;
+        
+    }
+    .pic{
+        
+        padding-top:250px;
+        padding-left:120px;
+        padding-right: 90px;
+        animation-name: bounce 4s infinite;
+    }
+    #liz{
+        position: sticky;
+        width: 180px;
+        height:200px;
+        border-radius: 50%;
+
+    }
+    
+    @keyframes bounce{
+        0%{transform:translate3d(0,0,0);}
+        50%{transform:translate3d(0,4px,0);}
+        100%{transform:translate3d(0,0,0);}
+    }
+    @keyframes grow{
+        0%{transform:scale(1);}
+        50%{transform:scale(1.2);}
+        100%{transform:scale(1);}
+    }
+}
