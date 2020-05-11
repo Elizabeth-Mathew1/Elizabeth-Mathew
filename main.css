@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
 
 h6{
   border-right: solid 3px rgba(0,255,0,.75);
   white-space: nowrap;
   overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
-  font-size: 28px;
+  font-family:'Patrick Hand', cursive;
+  font-size: 48px;
   color: rgba(255,255,255,.70);
   margin: 0 auto;
   
+}
+h3{
+  font-family: 'Patrick Hand', cursive;;
 }
 .writing{
     padding-top: 150px;
@@ -41,8 +47,8 @@ h6 {
 
 @keyframes animated-text{
   0%{width: 0;}
-  50%{width: 257px;}
-  100%{width: 257px;}
+  50%{width: 250px;}
+  100%{width: 250px;}
 }
 
 /* cursor animations */
@@ -198,7 +204,7 @@ h6 {
         padding-right: 40%;
     }
     .writing{
-        padding-left:170px;
+        padding-left:190px;
         color:rgb(253, 251, 250);
         opacity: 70%;
         padding-top:20% ;
@@ -210,8 +216,8 @@ h6 {
         100%{transform:translate3d(0,0,0);}
     }
     @keyframes grow{
-        0%{transform:scale(1.);}
+        0%{transform:scale(1);}
         50%{transform:scale(1.24);}
-        100%{transform:scale(1);}
+        80%{transform:scale(1);}
     }
 }
