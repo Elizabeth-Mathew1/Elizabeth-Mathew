@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+h6{
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  margin: 0 auto;
+  
+}
+.writing{
+    padding-top: 150px;
+    padding-left: 700px;
+    color:white;
+    opacity:80%;
+}
+
+/* Animation */
+h6 {
+  animation: animated-text 4s steps(14,end) 2s infinite,
+             animated-cursor 600ms steps(14,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 259px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color:black;}
+      to{border-right-color: transparent;}
+}
+
 .header{
     background-image: url("bg3.jpg");
     width: 100% !important;
@@ -12,61 +52,152 @@
     z-index:-1;
     height:auto;
     background-size:cover;
-    animation: grow 20s infinite;
+    animation: grow 150s infinite;
 }
 @keyframes grow{
     0%{transform:scale(1);}
-    50%{transform:scale(1.2);}
+    50%{transform:scale(1.3);}
     100%{transform:scale(1);}
 }
 .pic{
     animation:  bounce 20s infinite;
-    padding-top:290px;
-    padding-left:630px;
+    padding-top:25px!important;
+    padding-left:45%!important;
     padding-right: 90px;
+    border-color: lemonchiffon;
 }
 #liz{
     width: 180px;
     height:200px;
     border-radius: 50%;
+    border-color: lemonchiffon; 
+    opacity: 60%;
+
 
 }
 @keyframes bounce{
     0%{transform:translate3d(0,0,0);}
-    50%{transform:translate3d(0,10px,0);}
+    50%{transform:translate3d(10px,0,0);}
     100%{transform:translate3d(0,0,0);}
 }
+.meta{
+
+    padding-left: 5px;
+    width: 83%;
+    height: 195px;
+    margin-left:150px!important ;
+    padding-top: 180px!important;
+    
+  }
+  
+  h5 {
+    width: 200%;
+    height: 50%;
+    font-size: 25px;
+    padding-top:5%;
+    padding-left:-50%!important;
+    color: white;
+    opacity: 80%;
+  }
+  
+  h5::after{
+    content: "";
+    width: 200%;
+    height: 100%;
+    line-height: 45px;
+    left: 20%;
+    top: 50%;
+    animation: abomination1 7.5s linear infinite;
+    animation-fill-mode: forwards;
+  }
+  
+  
+    @keyframes abomination1 {
+    0% {
+      content: "L";
+    }
+    4% {
+      content: "Lo";
+    }
+    8% {
+      content: "Lov";
+    }
+    10% {
+      content: "Love";
+    }
+    14% {
+      content: "Loves";
+    }
+    18% {
+      content: "Loves t";
+    }
+    22% {
+      content: "Loves to";
+    }
+    40% {
+      content: "Loves to READ";
+    }
+    50% {
+      content: "Loves to WRITE";
+    }
+    65% {
+      content: "Loves to PAINT";
+    }
+    85% {
+      content: "Loves to CODE";
+    }
+    100% {
+      content: "Loves to DEVELOP";
+    }
+
+  }
+
+   
 
 @media(max-width:768px)
 {
     .header{
         height:auto;
         background-size:cover;
-        
+        animation: grow 80s infinite;
     }
     .pic{
         
-        padding-top:250px;
-        padding-left:120px;
-        padding-right: 90px;
-        animation-name: bounce 4s infinite;
+        padding-top:50px;
+        padding-left: 20%!important;
+        animation-name: bounce 70s infinite;
     }
     #liz{
-        position: sticky;
-        width: 180px;
-        height:200px;
+        
+        width: 150px;
+        height:170px;
         border-radius: 50%;
+        opacity: 70%;
 
     }
-    
+    h5{
+      padding-left:-5px!important;
+      padding-top:10%!important;
+    }
+    .intro{
+        padding-top:5%;
+        padding-right: 40%;
+    }
+    .writing{
+        padding-left:170px;
+        color:rgb(253, 251, 250);
+        opacity: 70%;
+        padding-top:20% ;
+        padding-right: 60%;
+    }
     @keyframes bounce{
         0%{transform:translate3d(0,0,0);}
-        50%{transform:translate3d(0,4px,0);}
+        50%{transform:translate3d(0,10px,0);}
         100%{transform:translate3d(0,0,0);}
     }
     @keyframes grow{
-        0%{transform:scale(1);}
-        50%{transform:scale(1.2);}
-        100%{transform:scale(1);}
+        0%{transform:scale(1.);}
+        50%{transform:scale(1.17);}
+        100%{transform:scale(1;}
     }
 }
