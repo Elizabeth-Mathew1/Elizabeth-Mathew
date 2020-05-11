@@ -17,18 +17,32 @@ h6{
     color:white;
     opacity:80%;
 }
+ .fa{
+  padding-left: -50%!important;
+  font-size: 28px!important;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:white;
+  opacity: 70%;
+ }
+.fa:hover{
+  color:rgb(235, 200, 137);
 
+}
 /* Animation */
 h6 {
-  animation: animated-text 4s steps(14,end) 2s infinite,
-             animated-cursor 600ms steps(14,end) infinite;
+  animation: animated-text 6s steps(12,end) 2s infinite,
+             animated-cursor 600ms steps(13,end) infinite;
 }
 
 /* text animation */
 
 @keyframes animated-text{
-  from{width: 0;}
-  to{width: 259px;}
+  0%{width: 0;}
+  50%{width: 257px;}
+  100%{width: 257px;}
 }
 
 /* cursor animations */
@@ -197,7 +211,7 @@ h6 {
     }
     @keyframes grow{
         0%{transform:scale(1.);}
-        50%{transform:scale(1.17);}
-        100%{transform:scale(1;}
+        50%{transform:scale(1.24);}
+        100%{transform:scale(1);}
     }
 }
