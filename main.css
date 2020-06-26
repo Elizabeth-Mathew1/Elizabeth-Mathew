@@ -14,7 +14,12 @@ svg {
   width: 100%;
   height: 100px;
 }
-
+#l3 p{
+  color: white;
+  padding-left:10%;
+  font-size: 18px;
+  text-align: right;
+}
 #snow{
   padding-left: 49%!important;
   opacity: 100%;
@@ -66,32 +71,56 @@ svg {
 {
   padding-top:0%!important
 }
+#l2{
+  padding-right:10%;
+  padding-top:5%;
+}
+#l2 p{
+  color: white;
+  font-size: 18px;
+}
 #l3{
   padding-left: 5%;
   padding-top: 10%!important;
 }
 #k1{
-  padding-left:10%;
-  padding-top:10%;
+  padding-left:5%;
+  margin-top: 17px;
+  
+}
+#k1 p{
+  font-size: 15px;
+ 
 }
 #k2{
   padding-left:0%;
+  padding-top: 10%;
 }
 #k3{
   padding-left: 10%;
   padding-top:10%;
+}
+
+#k3 p{
+  font-size:18px
+}
+#flaw{
+  display: inline-block;
+  margin-top:-300%!important;
+  margin-left:10%;
 }
 .project h1{
 
   font-family:'coming soon',cursive;
   font-size:80px;
   padding-left:40%;
-  padding-top: 10%;
+  padding-top: 6%;
 }
 .project{
   height:100vh;
   padding-right: 0%!important;
   height: 100vh;
+  padding-bottom: 40%!important;
 
 }
 .careergoals{
@@ -134,23 +163,30 @@ background: linear-gradient(90deg, rgba(61,197,224,1) 0%, rgba(119,133,189,1) 38
   height: 900px;
 }
 #liz3{
-  height:900px;
-  margin-right: -10%;
-  padding-top: 20%;
+  height:800px;
   display:inline-block;
-  margin-top: -10%!important;
+  margin-left:900%!important;
+  margin-top:5%!important;
+}
+#flaw{
+  padding-left:90%;
+  padding-top:-10%!important;
+
 }
 #liz4{
   height:1000px;
   width:1000px;
   display:inline-block;
   margin-left:-30%!important;
-  margin-top: -10%;
-  z-index: -1;
+  margin-top: -50%!important;
+  
   }
   #liz5{
-    padding-left:-10%;
+    padding-left:-80%;
     width:800px;
+  }
+  #k4{
+    padding-left:20%!important;
   }
 h6{
   border-right: solid 3px rgba(0,255,0,.75);
@@ -381,7 +417,7 @@ h6 {
         80%{transform:scale(1);}
     }
     .project{
-      padding-top:120%;
+      padding-top:200%;
       padding-bottom:100%;
       height: 100vh;
     }
@@ -401,44 +437,72 @@ h6 {
     width:400px;
   }
   #liz3{
-    padding-bottom:50%;
-    height:800px;
-    padding-right:20px;
+    padding-top:50%;
+    height:8px;
+    padding-left:-10%!important;
+    z-index: -1;
+  }
+  #k1{
+    padding-left:10%;
+  }
+  #k1 p{
+    font-weight: lighter;
   }
   #liz4{
     height:700px;
-    padding-top: -50%!important;
+    padding-top: -10%!important;
 
-    width:710px;
+    width:700px;
     display: inline-block;
     margin-right:10px!important;
     margin-left:10px;
+    margin-top: 10%;
 
   }
   #k2{
     padding-left:10px!important;
+    padding-top: 170px;
   }
+  
   .careergoals{
-    margin-top:100%;
-    padding-top:35%;
+    margin-top:190%;
+    padding-top:-10%;
+    
   }
   .careergoals h1{
-    display: inline-block;
-    padding-top:10px;
+    
+    padding-top:3px!important;
     font-size: 70px;
   }
   .academic{
-    padding-top:120%;
-    padding-left:-50%;
+    padding-top:130%;
+    padding-right:30%!important;
     padding-bottom: 50%!important;
+    height: 100vh;
+  }
+  #k3{
+    padding-left:30px;
+    
   }
   .academic h1{
     font-size:55px;
-    padding-left: 10px;
+    display: inline-block;
+    margin-right:100%!important;
+  }
+  .ah{
+
+    margin-right:80%!important;
+  }
+  #k4{
+    display:inline-block;
+    margin-left: 5%!important;
+    padding-top:-40%;
+    
   }
   #liz5{
-    height: 100%;
-    width:100%;
+    height:300px;
+    width:500px;
+   
   }
   .footer{
     padding-top:20%;
@@ -449,5 +513,24 @@ h6 {
   .footer p{
     font-size: 15px;
     margin-top: 20px;
+  }
+  #l2 p{
+    color: black;
+    font-size: 15px;
+    padding-left:5px ;
+  }
+  #l2{
+    padding-left: 30px;
+  }
+  #l3 p{
+    color:black;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: -10%;
+    text-align: left;
+  }
+  #l3{
+    
+    padding-top: 5%;
   }
 }
